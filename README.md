@@ -1,2 +1,2 @@
-# Random Password Geneartor using JS (API)
+# Random Password Geneartor 
 
