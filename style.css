@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3b3838, #c12929);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:  #692d2d; */
+    background: linear-gradient(to right, #161310, #602121);
+
+    padding: 35px 40px;
+    border-radius: 20px;
+    height:min-content;
+}
+
+h1{
+    font-weight: 700;
+    color: rgb(255, 242, 244);
+    background-color: black;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.input{
+    position: relative;
+    width: 300px;
+    margin-bottom: 30px;
+
+}
+
+.input input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;  /* extra space on right for icon */
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #610707;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.input i{
+    position: absolute;
+    right: 12px;    /* position inside input */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #cc1717;    /* default gray */
+    font-size: 20px;
+}
+
+
+input::placeholder{
+    color: brown;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.button button {
+  display: flex;              /* icon + text side by side */
+  align-items: center;        /* vertical center */
+  justify-content: center;    /* horizontal center */
+  gap: 8px;                   /* space between icon and text */
+
+  padding: 10px 18px;
+  border-radius: 12px;
+  color: white;
+  background-color: brown;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button i{
+    color: #000000;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.input i:hover{
+    color: #1c2d79;
+}
+
+
